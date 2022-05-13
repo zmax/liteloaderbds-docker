@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  bds:
+    image: shrbox/liteloaderbds
+    container_name: liteloaderbds
+    user: bds
+    ports:
+      - 19132:19132/udp
+    volumes:
+      - ./data:/home/bds/bds
+    stdin_open: true
+    tty: true
