@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 BDSDIR=./data
-BDSVER=1.18.32.02
-LLVER=2.2.3
+BDSVER=1.18.33.02
+LLVER=2.2.5
 
 mkdir -p data
 
